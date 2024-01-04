@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.principal-container {
+    float: left;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.titulocoffe {
+    color: #363031;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.lorem {
+    color: #363031;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
+
+}
+
+button {
+    display: flex;
+    margin-top: 32px;
+    padding: 24px 48px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 36px;
+    background: #A36A4F;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-principal {
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.imagens-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 400px;
+    padding-top: 50px;
+
+}
+
+.cafezinho1 {
+    border-radius: 1500px;
+
+}
+
+.cafezinho2 {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 1500px;
+    z-index: 1;
+    left: -100px;
+    top: 150px;
+}
+
+.secundario-container {
+
+position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 24px 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 80px;
+    background: #ECDAC4;
+    margin-left: 130px;
+    margin-top: 180px;
+    z-index: 2;
+    
+}
+
+.cafezao {
+    display: flex;
+    gap: 55px;
+}
+
+.conteudodebaixo-container {
+    position: relative;
+    padding: 138px 63px 48px 63px;
+    justify-content: center;
+    align-items: center;
+    background: #363032;
+    top: -70px;
+    z-index: 1;
+    display: flex;
+    gap: 96px;
+    padding-bottom: 100px;
+}
+
+.imagensparacentralizar{
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 150px;
+
+}
+
